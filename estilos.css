@@ -1,0 +1,42 @@
+* { margin: 0; 
+padding: 0;}
+
+header , section , footer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}
+header { height: 80px;
+top: 0;
+position: sticky;
+background-color: aqua;}
+
+#logo {
+    width: 250px;
+    height: 80px;
+    background-image: url(img/art.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+}
+#btn_principal {width: 600px;
+height: 80px;
+background-color: brown;
+text-align: center;
+float: right;}
+
+#btn_principal ul li {
+    display: inline;
+}
+
+#btn_principal ul li a {
+    display:inline-block ;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+}
